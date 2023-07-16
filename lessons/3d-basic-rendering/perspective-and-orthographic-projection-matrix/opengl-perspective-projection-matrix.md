@@ -248,7 +248,7 @@ aspect\;ratio = \dfrac{width}{height}\\
 top = \tan( \dfrac{ FOV } {2}) * near\\
 bottom = -top \\
 right = top * aspect\;ratio\\
-left = bottom = -top * aspect\;ratio
+left = -top * aspect\;ratio
 \end{array}
 $$
 
